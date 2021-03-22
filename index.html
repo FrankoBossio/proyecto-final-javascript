@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+	<html lang="es">
+		<head>
+		    <meta charset="UTF-8">
+		    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		    <link rel="stylesheet" type="text/css" href="estilo.css">
+		    <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css"><!--    -->
+		    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+		    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+		    <title>Manejate - Seguros</title>
+		</head>
+		<body>
+			<nav class="menu">
+				<label class="logo">Manejate</label>
+					<img class="s" src="img/Letter-S-PNG-Photo.png">
+				<ul>
+					<li><a class="active" href="#titulo1">Quienes Somos</a></li>
+					<li><a href="#titulo2">Beneficios</a></li>
+					<li><a href="#titulo3">Coberturas</a></li>
+					<li><a href="#titulo4">Asistencias</a></li>
+					<li><a href="#titulo5">Cotizador</a></li>
+				
+				</ul>
+				<label id="fas fa-bars"></label>
+			</nav>
+		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  			<div class="carousel-inner">
+    			<div class="carousel-item active">
+     				 <img class="d-block w-100" src="img/auto-5148314_960_720.gif" alt="First slide" width="100%" height="60%">
+   				</div>
+ 			</div>
+		</div>
+			<section>
+				<div class="contenedor-informacion">
+					
+						<h1 id="titulo1" class="wow backInRight" >Quienes Somos?</h1>
+					</div>
+					<img src="img/oficina-habitacion-interior-dibujos-animados-personas-reunion-conversacion_82574-8743.jpg" class="img1">
+					<p class="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
+				<div class="contenedor-beneficios">
+					<h1 id="titulo2" class="wow backInLeft">Conoce nuestros beneficios!</h1>
+					<img src="img/gente-comiendo-cafeterias-patio-comidas_74855-5284.jpg" class="img2">
+					<img src="img/concepto-apoyo-social-residentes-que-obtienen-beneficios-basicos-gobierno_74855-11060.jpg" class="img3">
+					<img src="img/alto-precio-concepto-combustible-automoviles-gente-gasta-dinero-gasolina-cambia-coche-scooter-ahorra-dinero-ilustracion-vector-plano-economia-reabastecimiento-combustible-con.jpg" class="img4">
+					<p class="p2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages</p>
+				</div>
+				<div class="contenedor-cobertura">
+					<h1 id="titulo3" class="wow backInRight">Nuestras Coberturas!</h1>
+					<p class="p3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages</p></div>
+					<img src="img/agente-seguros-resolviendo-accidente-automovilistico_53876-43055.jpg" class="img5"><img src="img/ilustracion-concepto-abstracto-accidente-trafico_335657-3958.jpg" class="img6">
+					<p class="p4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages</p></div>
+				<div class="contenedor-asistencia">
+					<h1 id="titulo4" class="wow backInLeft">Asistencias!</h1>
+					<img src="img/ilustracion-concepto-abstracto-asistencia-carretera_335657-3960.jpg" class="img7">
+					<img src="img/ilustracion-concepto-abstracto-servicio-coche_335657-1842.jpg" class="img8">
+					<p class="p5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
+					<div>
+						<h1 id="titulo5" class="wow backInRight">Completa el Formulario!</h1>
+						<p class="p6">Completa el formulario y nuestro cotizador va a decirte cuanto cuesta tu seguro mensual</p>
+					</div>
+				<div class="formulario">
+				<form>
+					<h1 class="mensaje" id="msj"> Elige marca, año y tipo </h1>
+					<div id="msj-error.cotizador"></div>
+					<div class="nombre">
+						<ul>
+						  <li>
+						    <input type="text" id="nombre" name="nombreusuario" class="formulario__input">
+						    <label for="nombre" class="formulario__label">Nombre:</label>
+						  </li>
+						   <li>
+						    <input type="text" id="apellido" name="apellidousuario" class="formulario__input"> 
+						    <label for="apellido" class="formulario__label">Apellido:</label>
+						  </li>
+						  <li>
+						    <input type="email" id="mail" name="mailusuario" class="formulario__input">
+						    <label for="mail" class="formulario__label" >E-mail:</label>
+						  </li>
+			 			</ul>
+					</div>
+				    <div class="campo">
+				    	<label>Marca</label>
+				    	<select name="marca" id="marca">
+				    		<option value="">-- Seleccione --</option>
+				    		<option value="alfa romeo">Alfa Romeo</option>
+				    		<option value="audi">Audi</option>
+				    		<option value="bentley">Bentley</option>
+				    		<option value="bmw">BMW</option>
+				    		<option value="cadillac">Cadillac</option>
+				    		<option value="chevrolet">Chevrolet</option>
+				    		<option value="citroen">Citroen</option>
+				    		<option value="ferrari">Ferrari</option>
+				    		<option value="fiat">Fiat</option>
+				    		<option value="ford">Ford</option>
+				    		<option value="honda">Honda</option>
+				    		<option value="isuzu">Isuzu</option>
+				    		<option value="iveco">Iveco</option>
+				    		<option value="jaguar">Jaguar</option>
+				    		<option value="jeep">Jeep</option>
+				    		<option value="kia">Kia</option>
+				    		<option value="lamborghini">Lamborghini</option>
+				    		<option value="land rover">Land Rover</option>
+				    		<option value="lexus">Lexus</option>
+				    		<option value="maserati">Maserati</option>
+				    		<option value="mazda">Mazda</option>
+				    		<option value="mercedes-benz">Mercedes-Benz</option>
+				    		<option value="mini">Mini</option>
+				    		<option value="mitsubishi">Mitsubishi</option>
+				    		<option value="morgan">Morgan</option>
+				    		<option value="nissan">Nissan</option>
+				    		<option value="peugeot">Peugeot</option>
+				    		<option value="piaggio">Piaggio</option>
+				    		<option value="porsche">Porsche</option>
+				    		<option value="renault">Renault</option>
+				    		<option value="rolls-royce">Rolls-Royce</option>
+				    		<option value="seat">Seat</option>
+				    		<option value="smart">Smart</option>
+				    		<option value="subaru">Subaru</option>
+				    		<option value="tesla">Tesla</option>
+				    		<option value="toyota">Toyota</option>
+				    		<option value="volkswagen">Volkswagen</option>
+				    		<option value="volvo">Volvo</option>
+				    	</select>
+				    </div>
+				    <div class="campo">
+				    	<label>Año</label>
+				    	<select name="año" id="año">
+				    		<option value="">-- Seleccione --</option>
+				    		<option value="2021">2021</option>
+				    		<option value="2020">2020</option>
+				    		<option value="2019">2019</option>
+				    		<option value="2018">2018</option>
+				    		<option value="2017">2017</option>
+				    		<option value="2016">2016</option>
+				    		<option value="2015">2015</option>
+				    		<option value="2014">2014</option>
+				    		<option value="2013">2013</option>
+				    		<option value="2012">2012</option>
+				    		<option value="2011">2011</option>
+				    		<option value="2010">2010</option>
+				    		<option value="2009">2009</option>
+				    		<option value="2008">2008</option>
+				    		<option value="2007">2007</option>
+				    		<option value="2006">2006</option>
+				    		<option value="2005">2005</option>
+				    		<option value="2004">2004</option>
+				    		<option value="2003">2003</option>
+				    		<option value="2002">2002</option>
+				    		<option value="2001">2001</option>
+				    		<option value="2000">2000</option>
+				    	</select>
+				    </div>
+				    <div class="campo">
+				    	<label>Seguro</label>
+				    		<input
+					    		 type="radio" 
+					    		 name="plan"
+					    		 value="basico"
+					    		 class="radio"
+					    		 id="radioBasico"
+					    	 /> Basico
+							<input
+					    		 type="radio" 
+					    		 name="plan"
+					    		 value="completo"
+					    		 class="radio"
+					    		 id="radioCompleto"
+					    	/> Completo
+					</div>
+						<div id="resumen" style="display: none;"></div>
+						<div class="" id="resultado" style="display: none;"></div>
+					<input type="button" id="scriptBox" onclick="procesarDatosDelForm();" class="button-primary" value="cotizar" onkeypress="enter (event)" />
+					<!--<div id="contenedor-carga">
+							<div id="carga"></div>
+						</div>--> <!--------------INDICADOR DE CARGA------------------->
+					<div class="datoscotizacion">
+						<h1 id="cotizacion"></h1>
+					</div>
+					</form>
+				</div>
+				<div class="imagenform"><img src="img/mujer-sonriente-apuntando-su-dedo-arriba_312194-667.jpg" width="150" height="150" >
+					<iframe class="wow zoomInDown" id="tabla" src="http://ws.geeklab.com.ar/dolar/dolar-iframe.php" frameborder="0" scrolling="no"></iframe>
+			</section>
+	     <footer>
+	       <div class="container-footer-all">
+	            <div class="container-body">
+	                <div class="colum1">
+	                    <h1>Mas informacion de la compañia</h1>
+	                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+	                </div>
+	                <div class="colum2">
+	                    <h1>Redes Sociales</h1>
+	                    <div class="row">
+	                        <img src="img/facebook.png">
+	                        <label>Siguenos en Facebook</label>
+	                    </div>
+	                    <div class="row">
+	                        <img src="img/twitter.png">
+	                        <label>Siguenos en Twitter</label>
+	                    </div>
+	                    <div class="row">
+	                        <img src="img/instagram.png">
+	                        <label>Siguenos en Instagram</label>
+	                    </div>
+	                    <div class="row">
+	                        <img src="img/google-plus.png">
+	                        <label>Siguenos en Google Plus</label>
+	                    </div>
+	                    <div class="row">
+	                        <img src="img/pinterest.png">
+	                        <label>Siguenos en Pinteres</label>
+	                    </div>
+	                </div>
+	                <div class="colum3">
+	                    <h1>Informacion Contactos</h1>
+	                    <div class="row2">
+	                        <img src="img/house.png">
+	                        <label>Argentina, Bolivia, Brasil, Paraguay, Uruguay, Venezuela
+	                        </label>
+	                    </div>
+	                    <div class="row2">
+	                        <img src="img/smartphone.png">
+	                        <label>0 800 111 1234</label>
+	                    </div>
+	                    <div class="row2">
+	                        <img src="img/contact.png">
+	                         <label>manejateseguros@gmail.com</label>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="container-footer">
+	               <div class="footer">
+	                    <div class="copyright">
+	                        © 2017 Todos los Derechos Reservados | <a href="">Manejate Seguros</a>
+	                    </div>
+	                    <div class="information">
+	                        <a href="">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+	                    </div>
+	                </div>
+	            </div>
+	   	 </footer>
+	   	  <script src="https://wowjs.uk/dist/wow.min.js"></script>
+	   	  <script src="script.js"></script>   <!--Javascript-->
+	   	  <script>
+	   	  	new WOW().init();
+	   	  </script>
+	   
+	</body>
+</html>
+
